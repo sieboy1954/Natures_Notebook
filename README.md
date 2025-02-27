@@ -1,2 +1,80 @@
 # Natures_Notebook
-Website for class project for ECPI on class profect SDC480 
+
+# Project Name: Nature's Notebook
+
+## Project Description
+Nature's Notebook is a social media website that allows users to post Natures photos to be viewable by others where they accept the friends request. 
+
+The application includes user create account, view friends photos, view and add personal photos, change account details, view details about one friends photo, edit personal photo, delete photo, add friends and unfollow friends.
+
+## Project Tasks
+-**Task 1: Set up the development environment**
+	-Create new project with necessary software's and tools (PHP, Xammp, MySQL, Bootstrap, CSS, HTML, PHP Admin security)
+	-Configure source control with GitHub and create to save to Phase1 Branch
+-**Task 2: Design the application
+	- Used Balsamiq to sketch an initial design layout
+	- Created a Visio UML diagram for MySQL database structure
+	- Created a Visio workflow diagram for user interface flow of both user and admin webpages
+	- Created requirements page to go over all the necessary website requirements
+-**Task 3: Implement authentication
+	- Set up Visual Studio Code to launch website as HTTPS site with JASON file
+-**Task 4: Connect to a database
+	- Created database script to develop necessary database, tables, table joins, columns, and seeds data
+	- Developed database link with OOP method with PHP scripting
+	- Tested database connection and data through test file and debugger
+-**Task 5: Create Model of MVC web design pattern
+	- Used Connect database OOP to create SQL statements to retrieve data for Users, Friends, Photos, PhotoCategory, Blocklist
+	- Tested all PHP model files with debugger to ensure I got the right data from database
+-**Task 6: Create Controller of MVC web design pattern
+	-Used the Models to create controllers that took the data and inserted it into a useful Object that could latter be easily retrieved in an organized fashion
+	-Tested all PHP controller files with debugger to ensure I got the correct data form the Model
+-**Task 7: Create Objects for each category
+	-Used OOP Objects to insert data to be retrieved by OOP getters and setter functions for safe organized transfer of data
+	-Tested all Objects see if they work with Controllers and Models
+-**Task 8: Develop security Utilities folder
+	- Created a security folder that only allows the proper user levels 1 for admin and 2 for user access to specific specified webpages
+	- Ensures only HTTPS files are used
+-**Task 9: Scripting Admin pages
+	- Used MC files to create view admin pages to manage all users with the goal of getting the proper data on the website with proper functionality and flow between webpages
+	- Created a admin nav bar that can be imported into all admin webpages
+	- Tested each file functionality on web browser and debugger to ensure functionality
+-**Task 10: Storing photos
+	-Created photo upload folders to hold all nature photos and profile photos. Renamed by user id with random number and photo name to ensure unique url.
+-**Task 11: Testing Importing and Resizing Photo
+	- Creating a image utilities file that test photos size and file to ensure security and not overload the server
+	- Resized image to 500 X 500 px to get same size photo for each upload 
+-**Task 12 Scripting User pages
+	- Used MC files to create view User pages to manage single user with the goal of getting the proper data on the website with proper functionality and flow between webpages
+	- Created session with user id to set User page
+	- Tested each file functionality on web browser and debugger to ensure functionality
+-**Task 13 Create input box error handlers
+	- Created separate files with OOP to test data entered into input boxes and only continue with submitting is all requirements meet
+	- Tested OOP with attempts to enter improper information and getting error results then testing with proper inputs
+-**Task 14 Create JavaScript for Photos
+	- Created a JavaScript file to temporarily displaying photo before import
+	- Resize photo
+-**Task 15 Create Design Webpage According to Balsamic sketch
+	- Create CSS file for webpage generic look
+	- Added bootstrap grid layout to ensure phone and webpage usability
+-**Task 16 Delete seeds data and add original data
+	- Deleted fake data to create account and add photos as User
+-**Task 17 Final test of functionality
+	- Create full profiles in multiple ways to test functionality
+	- Fix bugs while creating file
+-**Task 18 Present Work
+	- Load final code to GitHub
+	- Create a video on the creation of Nature's Photos
+
+## Development Process Used
+-**SCRUM Agile Method**: Had three days a week for five weeks to design and develop the program and present the work to go over the product. 
+
+## Deployment of Website
+-Must use XAMPP and myphpadmin to run webpage on local server
+-Run db_natures_notebook.sql script to create database
+-Reset your own username and password for database
+-Type username and password into database.php file under appropriate variable
+
+
+
+
+
