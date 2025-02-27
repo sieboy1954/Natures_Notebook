@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "https://localhost//Natures_Notebook_Final/",
+            "url": "https://localhost//Natures_Notebook-1/",
             "webRoot": "${workspaceFolder}"
         }
     ]
